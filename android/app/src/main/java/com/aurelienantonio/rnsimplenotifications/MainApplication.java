@@ -1,4 +1,4 @@
-package com.invertase.rnfirebasestarter;
+package com.aurelienantonio.rnsimplenotifications;
 
 import android.app.Application;
 
