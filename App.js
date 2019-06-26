@@ -24,6 +24,7 @@ export default class App extends React.Component {
   componentWillUnmount(){
     this.notificationListener();
     this.notificationOpenedListener();
+    this.messageListener();
   }
   async checkPermission(){
     const enabled = await firebase.messaging().hasPermission();
